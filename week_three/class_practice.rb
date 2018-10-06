@@ -13,5 +13,6 @@ class OpticalLenses
     def highindex
     end
     
-    def transition
+    def photochromic
     end
+end

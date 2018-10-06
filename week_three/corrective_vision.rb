@@ -9,7 +9,8 @@ class CorrectiveVision
 end    
 
     
-class OpticalLenses < CorrectiveVision
+class LensesMaterial < CorrectiveVision
+# CorrectiveVision Am I connecting them with this symbol < ?
     
     def polycarbonate
     end
@@ -27,7 +28,7 @@ class OpticalLenses < CorrectiveVision
     end
 end
 
-class LensesTypes
+class LensesTypes < CorrectiveVision
     
     def singlevision
     end
@@ -41,4 +42,3 @@ class LensesTypes
     def progressive
     end
 end    
-

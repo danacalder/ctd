@@ -1,5 +1,15 @@
 # parent class practice
-class OpticalLenses
+class CorrectiveVision
+    
+    def glasses
+    end
+    
+    def contactlenses
+    end
+end    
+
+    
+class OpticalLenses < CorrectiveVision
     
     def polycarbonate
     end
@@ -16,3 +26,19 @@ class OpticalLenses
     def photochromic
     end
 end
+
+class LensesTypes
+    
+    def singlevision
+    end
+    
+    def bifocal
+    end
+    
+    def trifocal
+    end
+    
+    def progressive
+    end
+end    
+

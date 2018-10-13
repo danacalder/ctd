@@ -5,4 +5,6 @@ def initialize
     @current_player = player_1
 end
 
-def play
+def display_board (Board)
+    puts "#{board[0]} | #{board[1]} | #{board [2]}"
+    puts "--------------------"

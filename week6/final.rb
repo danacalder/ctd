@@ -1,6 +1,7 @@
 print "Enter your age: "
 age = gets.chomp
-puts "Hooray!" 
+input = "Hooray!" * age.to_i
+puts input 
 
 answer = "" # the empty string
 

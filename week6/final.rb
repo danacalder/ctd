@@ -1,6 +1,6 @@
 print "Enter your age: "
-age = answer.gets.chomp
-age * puts "Hooray!" 
+age = gets.chomp
+puts "Hooray!" 
 
 answer = "" # the empty string
 

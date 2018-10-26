@@ -1,6 +1,6 @@
 print "Enter your age: "
-age = gets.chomp
-age.times{ puts "Hooray!" }
+age = answer.gets.chomp
+age * puts "Hooray!" 
 
 answer = "" # the empty string
 
